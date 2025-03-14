@@ -14,8 +14,7 @@ from helpers.extract_data_s3 import fetch_and_merge_csvs_from_s3
 from helpers.transform_data import clean_metadata, compute_genre_kpis, compute_hourly_kpis
 from helpers.validate_dataframes import validate_dataframes
 
-
-'''S3_BUCKET = Variable.get("s3_bucket")
+S3_BUCKET = Variable.get("s3_bucket")
 S3_PREFIX = Variable.get("bucket_prefix")
 IAM_ROLE = Variable.get("iam_arn")
 
@@ -24,7 +23,7 @@ PORT = Variable.get("port")
 DATABASE = Variable.get("database")
 USER = Variable.get("user")
 PASSWORD = Variable.get("password")
-'''
+
 
 
 
