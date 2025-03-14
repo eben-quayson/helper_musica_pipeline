@@ -130,6 +130,12 @@ If any validation check fails, the DAG terminates execution.
 
 ---
 
+## Security Issues
+-  **Tightening Access to Redshift**: Security groups configured to limit data from a specific ip for the Redshift instance
+-  **Implementing Resource Specific Policies**: The principle of least priviledge was adhered to.
+
+---
+
 ## Conclusion
 This Airflow pipeline enables automated extraction, transformation, and loading (ETL) of music streaming data. It ensures reliable KPI computation and efficient storage in Redshift for analytics.
 
